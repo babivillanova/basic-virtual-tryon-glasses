@@ -25,7 +25,7 @@ export const TryOn = () => {
 
             video.oncanplay = (e) => {
                 video.play();
-                IntializeThreejs("purple1");
+                IntializeThreejs("purple2");
                 IntializeEngine();
             }
         }
